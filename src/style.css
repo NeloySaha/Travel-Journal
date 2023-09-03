@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+nav {
+  display: flex;
+  height: 55px;
+  background-color: #f55a5a;
+  align-items: center;
+  justify-content: center;
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  color: #ffffff;
+}
+
+nav > img {
+  width: 24px;
+  padding-right: 3px;
+}
+
+.cards-list {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+  /* background-color: yellow; */
+  margin: 0px 40px;
+  background: #ffffff;
+}
+
+.cards-image {
+  width: 125px;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.card {
+  display: flex;
+  padding: 18px 0px 18px 0px;
+  height: 220px;
+  border-bottom: 1px solid #f5f5f5;
+  gap: 19px;
+}
+
+.marker-image {
+  width: 10px;
+  height: 10px;
+}
+
+.cards-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.url-line {
+  display: flex;
+  align-items: center;
+}
+
+.country-name {
+  padding: 0px 12px 0px 4px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+}
+
+.map-link {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #918e9b;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.location-name {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  height: 40px;
+
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #2b283a;
+}
+
+.location-time {
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 12px;
+
+  color: #2b283a;
+}
+
+.location-description {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #2b283a;
+}
