@@ -32,4 +32,4 @@ To run the Travel Journal App locally, follow these steps:
 
 5. Open your web browser and navigate to `http://localhost:3000` to use the app.
 
-Visit site at: `http://vercel.test`
+Visit site at: `https://travel-journal-peach-phi.vercel.app/`
